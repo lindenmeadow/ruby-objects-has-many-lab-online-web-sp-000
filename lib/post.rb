@@ -1,5 +1,4 @@
 class Post
-  class Song
     attr_accessor :name, :author
 
     @@all = []
@@ -17,5 +16,4 @@ class Post
         nil
       end
     end
-  end
 end

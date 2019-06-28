@@ -16,4 +16,8 @@ class Song
       nil
     end
   end
+
+  def self.all
+    @@all
+  end
 end
